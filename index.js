@@ -14,7 +14,7 @@ function meuEscopo() {
         let resposta = total + ((desconto / 100) * total);
         console.log(resposta);
 
-        resultado.innerHTML += `<p>O total a se pagar da conta + desconto do garçon é R$${resposta.toFixed(2)}.</p>`
+        resultado.innerHTML += `<p>O total a se pagar da conta + taxa do garçon é R$${resposta.toFixed(2)}.</p>`
     }
     form.addEventListener('submit', calcular);
 }
