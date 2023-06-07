@@ -18,6 +18,7 @@ function meuEscopo() {
     }
     form.addEventListener('submit', calcular);
 }
+
 meuEscopo();
 
 
